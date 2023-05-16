@@ -1,5 +1,5 @@
-*.env
-*.mp4
+.env
+
 # Miscellaneous
 *.class
 *.log
