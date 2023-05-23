@@ -5,4 +5,10 @@ extension DateTimeExtension on DateTime {
     DateFormat formatter = DateFormat('E d');
     return formatter.format(this);
   }
+
+  String get formatToDDMMYYYY {
+    final dateFormat = DateFormat('DD/MM/yyyy');
+
+    return dateFormat.format(this);
+  }
 }

@@ -131,7 +131,7 @@ class _Slide extends StatelessWidget {
               ),
               const Spacer(),
               Text(
-                movie.popularity.toHumanFormat,
+                movie.popularity.toHumanFormat(),
                 style: textStyles.bodySmall,
               ),
             ],
